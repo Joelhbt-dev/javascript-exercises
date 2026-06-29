@@ -4,13 +4,13 @@ describe('numberChecker', () => {
   test('returns true when number is 1000', () => {
     expect(numberChecker(1000)).toEqual(true);
   });
-  ('returns true when number is 10', () => {
+  test('returns true when number is 10', () => {
     expect(numberChecker(10)).toEqual(true);
   });
-  ('returns false when number is 9', () => {
+  test('returns false when number is 9', () => {
     expect(numberChecker(9)).toEqual(false);
   });
-  ('returns false when number is 6', () => {
+  test('returns false when number is 6', () => {
     expect(numberChecker(6)).toEqual(false);
   });
 });
