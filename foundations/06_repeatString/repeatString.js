@@ -1,19 +1,19 @@
 const repeatString = function(string,num) {
 
      let s = "";
+     let x = "ERROR";
 
-    for(let i=0;i<num;i++){
+         if(num<0) {
+            return x;
 
-        if(num){
-
-         s = s + string;
-    }
-
-        else if(!num || num===0) {
-            return "ERROR";
         }
 
-    }
+    for(let i=1;i<=num;i++){
+
+        if(num=>1){
+
+         s = s + string;
+    } }
 
     return s;
 
